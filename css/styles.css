@@ -42,7 +42,9 @@ html {
     scroll-behavior: auto;
   }
 }
-
+.mob-lang-btn {
+  display: none;
+}
 body {
     background: var(--white-color);
     font-family: var(--body-font-family);    
@@ -1173,7 +1175,9 @@ button:focus:not(:focus-visible) {
   .lang-dropdown.lang-dektop-btn{
     display: none !important;
   }
-  
+  .mob-lang-btn {
+    display: block;
+  }
 }
 
 
